@@ -116,3 +116,54 @@ nav{
 .btn5:hover{
   background-color: rgb(3, 57, 57);
 }
+
+.notes{
+  padding:100px 20px;
+  text-align: center;
+  background-color:aqua;
+}
+.notes h2{
+  color:#0f283f;
+  margin-bottom: 12px;
+}
+.notes p .sub{
+  font-size: 16px;
+  color:#94a3b8;
+  max-width: 720px;
+  margin: 0 auto 60px;
+  line-height: 1.6;
+}
+.grid{
+  display:grid;
+  gap:32px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card{
+  background-color: white ;
+  color:#101b34;
+  padding: 40px 28px;
+  border-radius: 15px;
+
+}
+.icon{
+  width:56px;
+  height: 56px;
+  background-color:#c23535;
+  color:#e8e2e2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  font-size: 22px;
+}
+.card h3{
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.card p{
+  font-size: 15px;
+  color: #64748b;
+  line-height: 1.5;
+}
