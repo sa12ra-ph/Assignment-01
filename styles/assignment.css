@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  width: 84%;
+  max-width: 1536px;
+  padding:16px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-inter{
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.font-inter a{
+  font-size: 16px;
+  text-decoration: none;
+  color:black;
+}
+.btn{
+  weight:164px;
+  height:43px;
+  background-color: #1a6b3c;
+  border: none;
+  padding:12px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.btn:hover{
+  background-color: white;
+  color: #1a6b3c;
+}
+#banner{
+   background: url("../assets/hero-bg.png");
+  width:1536px;
+  display: flex;
+  padding: 40px 20px;
+  justify-content: center;
+  align-items: center;
+  text-align:center ;
+}
+.btn2{
+  display: inline-flex;
+  align-items: center;
+  border:none;
+  background-color: white;
+  color: #207e47;
+  font-size: 16px;
+  border-radius: 25px;
+  margin-bottom: 24px;
+  margin-top: 115px;
+  padding: 8px 12px;
+}
+.btn2:hover{
+  background-color: #207e47;
+  color: whitesmoke;
+}
+#banner h1{
+  color: white;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+#banner h1 span{
+  color:#1ea750;
+}
+#banner p{
+  font-size: 18px;
+  line-height: 1.7;
+  color:#d1d8e0;
+  max-width: 700px;
+  margin: 0 auto 36px;
+}
+.btn3{
+  display: inline-flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.btn4{
+  display:inline-flex;
+  align-items:center;
+  gap: 10px;
+  margin-bottom: 178px;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color:#1a6b3c;
+  color: white;
+}
+.btn5{
+  display:inline-flex;
+  align-items:center;
+  gap: 10px;
+  margin-bottom: 178px;
+  padding: 14px 24px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color:transparent;
+  color: white;
+}
+
+.btn4:hover{
+  background-color: darkcyan;
+}
+.btn5:hover{
+  background-color: rgb(3, 57, 57);
+}
